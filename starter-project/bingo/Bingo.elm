@@ -4,4 +4,6 @@ import Html
 
 
 main =
-    Html.text "Hello ELM!mmm"
+    "Hello gret"
+        |> String.toUpper
+        |> Html.text
